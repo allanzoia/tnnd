@@ -1,0 +1,48 @@
+/* Ensure full height and flex layout */
+html, body { height: 100%; margin: 0; }
+body { display: flex; flex-direction: column; }
+.content { flex: 1 0 auto; }
+footer { flex-shrink: 0; }
+.container { padding-left: 15px; padding-right: 15px; }
+.table, .form-control { width: 100%; }
+.navbar { padding: 0.5rem 1rem; }
+.list-unstyled { margin-bottom: 1rem; }
+
+/* Prevent container padding issues */
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Normalize forms and cards */
+.form-control, .card {
+    width: 100%;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text {
+    flex-grow: 1;
+}
+
+.btn {
+    margin-top: auto;
+}
+
+/* Ensure navbar responsiveness */
+.navbar {
+    padding: 0.5rem 1rem;
+}
+.accordion-button {
+    font-weight: bold;
+}
+.accordion-body .list-group-item {
+    border: none;
+}
