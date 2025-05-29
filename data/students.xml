@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <!-- Student entry -->
+    <student>
+        <username>student1</username>
+        <password>5f4dcc3b5aa765d61d8327deb882cf99</password>
+        <email>student1@example.com</email>
+        <cpf>12345678901</cpf>
+        <phone>11987654321</phone>
+        <name>John Doe</name>
+        <status>active</status>
+        <role>student</role>
+        <courses>AWS101,AWS102</courses>
+    </student>
+    <student>
+        <username>student2</username>
+        <password>202cb962ac59075b964b07152d234b70</password>
+        <email>student2@example.com</email>
+        <cpf>98765432109</cpf>
+        <phone>11912345676</phone>
+        <name>Jane Smith</name>
+        <status>active</status>
+        <role>student</role>
+        <courses>AWS101,AWS002</courses>
+    </student>
+    <student>
+        <username>admin</username>
+        <password>0192023a7bbd73250516f069df18b500</password>
+        <email>admin@example.com</email>
+        <cpf>11122233344</cpf>
+        <phone>11900000000</phone>
+        <name>Admin User</name>
+        <status>active</status>
+        <role>admin</role>
+        <courses/>
+    </student>
+</students>

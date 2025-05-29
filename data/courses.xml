@@ -1,1 +1,50 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<courses>
+  <!-- Course entry -->
+  <course>
+    <id>AWS101</id>
+    <title>AWS Solutions Architect Associate SAA-C02 - [START]</title>
+    <description>Introduction to AWS services and cloud computing.&#13;
+R$19,90</description>
+    <status>active</status>
+    <resources>
+      <quiz>https://example.com/quiz1</quiz>
+      <flashcard>https://jeandbs.com.br/cursosdbs/dashboard/treinamentos/Exame-Oficial-SAA-C03/quiz_2.html</flashcard>
+      <video url="https://youtu.be/rHhlPKqLWLg?si=QtP8sN_sf6BnEOB" title="Dicas e Estratégias"/>
+      <video url="https://youtu.be/rHhlPKqLWLg?si=QtP8sN_sf6BnEfB" title="Dicas e Estratégias"/>
+      <video url="https://youtu.be/rHhlPKqLWLg?si=QtP8sN_sf6BnO5B" title="Dicas e Estratégias"/>
+      <pdf url="https://example.com/material/index.html" title="Slide do curso"/>
+      <pdf url="https://example.com/aws_basics_guide.pdf" title="AWS Basics Guide"/>
+    </resources>
+  </course>
+  <!-- Course entry -->
+  <course>
+    <id>AWS002</id>
+    <title>AWS Solutions Architect Associate SAA-C02 - [MÓDULO 1]</title>
+    <description>Introduction to AWS services and cloud computing. R$19,90</description>
+    <status>active</status>
+    <resources>
+      <quiz/>
+      <flashcard>https://jeandbs.com.br/cursosdbs/dashboard/treinamentos/Exame-Oficial-SAA-C03/quiz_2.html</flashcard>
+      <video url="https://youtu.be/H9ZBXFjiGZ8?si=GQidWm-ocCBbcIDV" title="Dicas e Estratégias"/>
+      <video url="https://www.youtube.com/watch?v=e82I4pzK7ew" title="Outras dicas"/>
+    </resources>
+  </course>
+  <!-- Course entry -->
+  <course>
+    <id>AWS003</id>
+    <title>AWS Solutions Architect Associate SAA-C02 - [MÓDULO 2]</title>
+    <description>Introduction to AWS services and cloud computing. R$19,90</description>
+    <status>active</status>
+    <resources>
+      <quiz>https://jeandbs.com.br/cursosdbs/dashboard/treinamentos/Exame-Oficial-SAA-C03/quiz_2.html</quiz>
+      <flashcard>https://jeandbs.com.br/cursosdbs/dashboard/treinamentos/Exame-Oficial-SAA-C03/quiz_2.html</flashcard>
+      <video url="https://youtu.be/H9ZBXFjiGZ8?si=GQidWm-ocCBbcIDV" title="Dicas e Estratégias"/>
+      <video url="https://www.youtube.com/watch?v=e82I4pzK7ew" title="Introduction to AWS 2"/>
+      <video url="https://www.youtube.com/watch?v=e82I4pzK7ew" title="AWS Services Overview 2"/>
+      <video url="https://youtu.be/H9ZBXFjiGZ8?si=GQidWm-ocCBbcIDV" title="Outras dicas"/>
+      <pdf url="https://example.com/aws_basics_guide.pdf" title="Slide 2"/>
+      <pdf url="https://example.com/material/index.html" title="Slide 1"/>
+    </resources>
+  </course>
+</courses>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<progress>
+    <!-- Student progress entry -->
+    <student>
+        <username>student1</username>
+        <!-- Progress for a specific course -->
+        <course>
+            <course_id>AWS101</course_id>
+            <!-- Comma-separated list of completed resource IDs -->
+            <completed/>
+        </course>
+        <course>
+            <course_id>AWS102</course_id>
+            <completed/>
+        </course>
+    </student>
+    <student>
+        <username>student2</username>
+        <course>
+            <course_id>AWS101</course_id>
+            <completed>video_8aa10ec3c6f514d6bdf54a65ddd5128b,video_0205f147d839a881b57a91e887efa2d7,pdf_4e695f2c39e2ed2696e51f5ec6a9d995,quiz,video_2ed533911d27bb209fd9b9eb98d5b5f2</completed>
+        </course>
+    <course><course_id>AWS003</course_id><completed>video_4d8f198cb755753805056a9326ebeef2</completed></course><course><course_id>AWS002</course_id><completed>video_bd5c7f589ce94008d5432a5326fd5f2f</completed></course></student>
+</progress>
